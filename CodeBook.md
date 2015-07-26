@@ -49,23 +49,23 @@ The following files are available for the train and test data. Their description
 ## Variables
 
 
-* dir The directory where the data set files are located
-* labels Activity Labels table
-* features Features table
-* X_test Original Test set and filtered by required_features set
-* y_test Test labels
-* X_train Original Training set and filtered by required_features set
-* y_train Training labels
-* subject_test Subject test table
-* subject_train Subject train table
-* required_features Filtered features including only the ones containing 'mean' and 'std'
-* test_data y_test and X_test joined
-* train_data y_train and X_train joined
-* data test_data and train_data joined
-* id_labels Vector containing the id labels ("subject", "Activity_ID", "Activity_Label")
-* data_labels Vector containing only the variable column names
-* melt_data Arranged data to facilitate grouping by activity and subject
-* result Table grouping each variable by subject and activity summarizing each variable by it's mean
+* **dir** The directory where the data set files are located
+* **labels** Activity Labels table
+* **features** Features table
+* **X_test** Original Test set and filtered by required_features set
+* **y_test** Test labels
+* **X_train** Original Training set and filtered by required_features set
+* **y_train** Training labels
+* **subject_test** Subject test table
+* **subject_train** Subject train table
+* **required_features** Filtered features including only the ones containing 'mean' and 'std'
+* **test_data** y_test and X_test joined
+* **train_data** y_train and X_train joined
+* **data** test_data and train_data joined
+* **id_labels** Vector containing the id labels ("subject", "Activity_ID", "Activity_Label")
+* **data_labels** Vector containing only the variable column names
+* **melt_data** Arranged data to facilitate grouping by activity and subject
+* **result** Table grouping each variable by subject and activity summarizing each variable by it's mean
 
 ## Process detail
 - Load all required data files
