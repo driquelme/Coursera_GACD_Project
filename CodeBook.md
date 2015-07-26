@@ -68,9 +68,9 @@ The following files are available for the train and test data. Their description
 * result Table grouping each variable by subject and activity summarizing each variable by it's mean
 
 ## Process detail
-1) Load all required data files
-2) Remove data columns that don't contain the words 'mean' or 'std'
-3) Add activity and subject column names
-4) Merge data into a single file
-5) Reshape data to the required format
-6) Write final file
+- Load all required data files
+- Remove data columns that don't contain the words 'mean' or 'std'
+- Add activity and subject column names
+- Merge data into a single file
+- Reshape data to the required format
+- Write final file
